@@ -672,13 +672,6 @@ a{
 .col-sm-4 a:hover{
     opacity: 0.5;
 }
-
-
-.row__footer{
-    margin-right: 220px;
-}
-
-
 er {
     max-width: 1000px;
 }
@@ -1060,7 +1053,26 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+
+    .row.row-no-gutters{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
+
+    .logo_footer{
+        display: none;
+
+    }
+    .mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.row__footer{
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
 }

@@ -78,47 +78,66 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+<section class="margin bloc bgc-white l-bloc" id="bloc-7">
+				<div class="col-sm-6">
+
+					<div class="section__title">
+						<h2><img src="img/smile.svg" alt="smile">On se lance ?</h2>
 					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+
+					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<div class="form-group">
+							<label>
+								Nom
+							</label>
+							<input id="name" class="form-control" required />
+						</div>
+						<div class="form-group">
+							<label>
+								Adresse email
+							</label>
+							<input id="email" class="form-control" type="email" required />
+						</div>
+						<div class="form-group">
+							<label>
+								Comment nous avez-vous connu ?
+							</label>
+							<input class="form-control" type="email" required id="input_504" />
+						</div>
+						<div class="form-group">
+							<label>
+								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</div>
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							Envoyer
+						</button>
+					</form>
+				</div>
+
+				<div class="section__contact">
+
+					<div class="section__title">
+						<h2 class="flex"><img src="img/search-location.svg">Où pouvez-vous nous trouver ?</h2>
 					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+
+					<div class="section__content">
+						<img src="img/mail.svg">
+						<p class="section__p">contact@lachouetteagence.com</p>
 					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
+
+					<div class="section__content">
+						<img src="img/mapmarker.svg">
+						<p class="section__p">2 place Sathonay 69001, Lyon</p>
+					</div>
+
+					<div class="section__content">
+						<img src="img/clock.svg">
+						<p class="section__p">Ouvert de 9h à 18h, du lundi au vendredi</p>
+					</div>
+				</div>
+
+</section>
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->

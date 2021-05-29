@@ -150,7 +150,7 @@ padding-bottom: 10px;
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -167,7 +167,7 @@ padding-bottom: 10px;
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .6)
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -833,7 +833,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(163, 128, 62);
     padding: 40px 40px 40px 40px;
 }
 
@@ -857,7 +857,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a55e3e;
 }
 
 .tc-white{
@@ -865,12 +865,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a55e3e;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -1173,16 +1173,14 @@ h4 {
 }
 
 .row__footer a{
-    border-right: solid 1px rgba(255, 255, 255, 0.801);
+    border-right: solid 1px white;
     padding: 0px 10px 0px 10px;
 }
 .row__footer a:hover{
-    color: white;
+    opacity: 0.5;
+    transition: 0.2s;
 }
 
-.ltc-grey{
-    color: rgba(255, 255, 255, 0.801);
-}
 .border{
-    border-left: solid 1px rgba(255, 255, 255, 0.801);
+    border-left: solid 1px white;
 }

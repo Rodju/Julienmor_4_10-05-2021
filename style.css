@@ -1146,7 +1146,14 @@ h4 {
         }
     .production img{
         margin:auto;
+        height: auto;
+        width: auto;
     }
+    .logo img{
+        width: auto;
+        height: auto;
+    }
+
 
     .production h3{
     margin: 15px auto 5px  auto;
